@@ -1,0 +1,35 @@
+$pageFont:    Helvetica, sans-serif;
+$primary-color: #333;
+
+.App {
+  text-align: center;
+
+  .header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font: 100% $pageFont;
+  }
+
+
+  .copyStyleBtn{
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-style: none;
+    background: linear-gradient(to right bottom,#0f2027, #203a43, #2c5364);
+    color: white;
+  }
+  .changeButton{
+    padding-top: 30px;
+  }
+
+}
+
+
+
+
